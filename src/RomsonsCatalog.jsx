@@ -157,7 +157,7 @@ const RomsonsCatalog = () => {
         <section className="py-16 px-6 bg-red-900" data-aos="fade-up">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white flex items-center justify-center gap-2"><FaPhoneAlt  /> Contact Us</h2>
-          <p className="mt-4 text-lg text-gray-300 flex items-center justify-center gap-2"><FaMapMarkerAlt /> SAPPHIRE SURGICAL SUPPLIERS PRIVATE LIMITED 95/2 SHYAM COLONY, HISAR ROAD, , ROHTAK, Haryana, India - 124001</p>
+          <p className="mt-4 text-lg text-gray-300 flex items-center justify-center gap-2"><FaMapMarkerAlt /> SAPPHIRE SURGICAL SUPPLIERS PRIVATE LIMITED 95/2 SHYAM COLONY, HISAR ROAD,ROHTAK, Haryana, India - 124001</p>
           <p className="mt-2 text-lg text-gray-300 flex items-center justify-center gap-2"><FaPhoneAlt  /> 01262-249009</p>
           <p className="mt-2 text-lg text-gray-300 flex items-center justify-center gap-2"><FaPhoneAlt  /> 9896664070</p>
           <p className="mt-2 text-lg text-gray-300 flex items-center justify-center gap-2"><FaEnvelope />sapphiresurgical99@gmail.com</p>
