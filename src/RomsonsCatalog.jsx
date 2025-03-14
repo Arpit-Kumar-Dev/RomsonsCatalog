@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaFlask, FaCogs,FaPhone, FaShieldAlt, FaPhoneAlt ,FaIndustry,FaMapMarkerAlt, FaTrophy, FaEnvelope,FaMicroscope, FaUsers, FaHandHoldingHeart } from "react-icons/fa";
+import { Helmet } from "react-helmet";
+
+
 
 const RomsonsCatalog = () => {
   useEffect(() => {
@@ -71,6 +74,9 @@ const RomsonsCatalog = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
+        <Helmet>
+          <title>Sapphire Surgical Suppliers</title>
+        </Helmet>
       <header
         className="h-[50vh] flex flex-col items-center justify-center text-white bg-red-800 bg-opacity-80 bg-cover bg-center text-center animate-fade-in"
         style={{ backgroundImage: `url(${companyInfo.backgroundImage})` }}
