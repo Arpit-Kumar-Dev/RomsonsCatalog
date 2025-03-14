@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaFlask, FaCogs, FaShieldAlt, FaIndustry, FaTrophy, FaMicroscope, FaUsers, FaHandHoldingHeart } from "react-icons/fa";
+import { FaFlask, FaCogs,FaPhone, FaShieldAlt, FaIndustry,FaMapMarkerAlt, FaTrophy, FaEnvelope,FaMicroscope, FaUsers, FaHandHoldingHeart } from "react-icons/fa";
 
 const RomsonsCatalog = () => {
   useEffect(() => {
@@ -9,9 +9,9 @@ const RomsonsCatalog = () => {
   }, []);
 
   const companyInfo = {
-    name: "Romsons",
+    name: "SAPPHIRE SURGICAL SUPPLIERS",
     description:
-      "Romsons has been revolutionizing the medical device industry since 1952, pioneering disposable surgical devices and setting the gold standard in healthcare innovation.",
+      "sapphire surgical suppliers has been revolutionizing the medical device industry since 27 Dec 2002, pioneering disposable surgical devices and setting the gold standard in healthcare innovation.",
     backgroundImage: "https://www.romsons.com/cdn/shop/products/romsons-medical-background.jpg",
   };
 
@@ -84,7 +84,7 @@ const RomsonsCatalog = () => {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-red-600 flex items-center justify-center gap-2"><FaShieldAlt /> About Us</h2>
           <p className="mt-4 text-lg text-gray-300">
-            Romsons started a medical revolution in 1952 by introducing disposable surgical devices. Today, we serve over 60 countries with 1000+ distributors worldwide, ensuring high-quality healthcare solutions.
+          sapphire started a medical revolution in 2002 by introducing disposable surgical devices. Today, we serve over 60 countries with 1000+ distributors worldwide, ensuring high-quality healthcare solutions.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ const RomsonsCatalog = () => {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-red-600 flex items-center justify-center gap-2"><FaMicroscope /> Research & Development</h2>
           <p className="mt-4 text-lg text-gray-300">
-            Romsons is committed to innovation, continuously improving medical solutions through advanced R&D, ensuring cutting-edge products for patient safety and healthcare efficiency.
+          sapphire is committed to innovation, continuously improving medical solutions through advanced R&D, ensuring cutting-edge products for patient safety and healthcare efficiency.
           </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ const RomsonsCatalog = () => {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-red-600 flex items-center justify-center gap-2"><FaTrophy /> Quality & Manufacturing</h2>
           <p className="mt-4 text-lg text-gray-300">
-            We follow GMP, ISO 11135 sterilization standards, and CE certification, ensuring that every product undergoes rigorous quality checks before reaching our customers.
+            We follow NIC- 2423 sterilization standards, and CE certification, ensuring that every product undergoes rigorous quality checks before reaching our customers.
           </p>
         </div>
       </section>
@@ -140,13 +140,26 @@ const RomsonsCatalog = () => {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-red-600 flex items-center justify-center gap-2"><FaHandHoldingHeart /> Commitment to Healthcare</h2>
           <p className="mt-4 text-lg text-gray-300">
-            At Romsons, we believe in empowering healthcare professionals with high-quality, innovative, and safe medical devices, improving the lives of patients worldwide.
+            At sapphire, we believe in empowering healthcare professionals with high-quality, innovative, and safe medical devices, improving the lives of patients worldwide.
           </p>
         </div>
       </section>
 
+      
+
       <footer className="py-6 bg-red-900 text-white text-center">
-        <p className="text-lg">© 2024 Romsons. Leading the Future of Healthcare.</p>
+        <section className="py-16 px-6 bg-red-900" data-aos="fade-up">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white flex items-center justify-center gap-2"><FaPhone /> Contact Us</h2>
+          <p className="mt-4 text-lg text-gray-300 flex items-center justify-center gap-2"><FaMapMarkerAlt /> SAPPHIRE SURGICAL SUPPLIERS PRIVATE LIMITED is 95/2 SHYAM COLONY, HISAR ROAD, , ROHTAK, Haryana, India - 124001</p>
+          <p className="mt-2 text-lg text-gray-300 flex items-center justify-center gap-2"><FaPhone /> 01262-249009</p>
+          <p className="mt-2 text-lg text-gray-300 flex items-center justify-center gap-2"><FaPhone /> 9896664070</p>
+          <p className="mt-2 text-lg text-gray-300 flex items-center justify-center gap-2"><FaEnvelope />sapphiresurgical99@gmail.com</p>
+        </div>
+        
+      </section>
+
+        <p className="text-lg">© 2002 SAPPHIRE SURGICAL SUPPLIERS. Leading the Future of Healthcare.</p>
       </footer>
     </div>
   );
